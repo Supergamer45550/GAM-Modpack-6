@@ -1,0 +1,21 @@
+{
+	icon: "minecraft:grass_block"
+	id: "6C35CA07B01E5B7A"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			type: "xp_levels"
+			weight: 0.85f
+			xp_levels: 5
+		}
+		{ count: 4, item: "minecraft:iron_ingot" }
+		{ item: "minecraft:diamond", weight: 0.6f }
+		{ count: 8, item: "minecraft:raw_gold", weight: 0.8f }
+		{ count: 32, item: "minecraft:dirt", weight: 1.2f }
+		{ count: 16, item: "minecraft:coarse_dirt" }
+		{ count: 16, item: "minecraft:oak_log" }
+		{ count: 64, item: "minecraft:oak_planks" }
+	]
+	title: "Vanilla Table"
+}

@@ -1,0 +1,700 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "2F8DDE3D503BA8ED"
+	icon: "create:wrench"
+	id: "45057A583A7CE9A0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2EF530AD6AC659D1"
+			rewards: [
+				{
+					id: "120AF6A7201377B3"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "3457862B56480AAD"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			subtitle: "In the Create Mod you can make your Industry dream. From big Factories to Trains Take those items as a headstart"
+			tasks: [{
+				id: "0468C994CA7EE65E"
+				title: "Your Factories wait"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2EF530AD6AC659D1"]
+			id: "60D7A859B2DB7730"
+			subtitle: "The Copper Ingot is needed for many items. Pipes. Fluid Tanks"
+			tasks: [{
+				id: "1536A87C5D66F48D"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2EF530AD6AC659D1"]
+			id: "14A7B83F1FCC562B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DBC2B27FE4827BE"
+				table_id: 6097823576572747632L
+				type: "random"
+			}]
+			subtitle: "Zinc is a new Ingot added in Create, Its needed for various recipes "
+			tasks: [{
+				id: "13025F0D5094C9A3"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03264A71C9C32E22"]
+			hide_until_deps_complete: true
+			id: "036378877D751BA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "148FC105315841FD"
+				table_id: 6097823576572747632L
+				type: "random"
+			}]
+			subtitle: "You need one of the following items to start creating your first SU"
+			tasks: [{
+				id: "5D50F4C5D32C4D9E"
+				title: "Your first SU"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["036378877D751BA9"]
+			id: "07977DB68B8B674B"
+			subtitle: "Water Wheels use Water to generate a low Amount of SU"
+			tasks: [{
+				id: "6432630CC0B8E4F8"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["036378877D751BA9"]
+			id: "51471B3F03D4C635"
+			subtitle: "With a Windmill Bearing you can procuce SU with Wind. the Bearing needs Wool or Sails to work"
+			tasks: [{
+				id: "057BFA44D17A5CBB"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["07977DB68B8B674B"]
+			id: "32569E394A51360D"
+			subtitle: "Large Water Wheels generate more SU than normal ones, are however slower"
+			tasks: [{
+				id: "11261817D9FF81F6"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2EF530AD6AC659D1"]
+			id: "63FDE6659610065B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F8D59795BA53AEB"
+				table_id: 6097823576572747632L
+				type: "random"
+			}]
+			subtitle: "Andesite gets a really important usage in Create so always take it with you"
+			tasks: [{
+				id: "6FA1650D8FF8E16F"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["63FDE6659610065B"]
+			hide_until_deps_complete: true
+			id: "5DCA8D784BFF71ED"
+			rewards: [{
+				count: 4
+				id: "700C4E0CA1BA5B04"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "with andesite and zinc or iron nuggets you can craft Andesite alloy. the most important item for early create"
+			tasks: [{
+				id: "66EECDCBFA1F990D"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5DCA8D784BFF71ED"]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			id: "03264A71C9C32E22"
+			tasks: [{
+				id: "287087B1A74D79CF"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03264A71C9C32E22"]
+			hide_until_deps_complete: true
+			id: "6FCB68F506BF7851"
+			tasks: [{
+				id: "4A7ADFB3422C8932"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["03264A71C9C32E22"]
+			hide_until_deps_complete: true
+			id: "216D3B22B19190AB"
+			tasks: [{
+				id: "3A5D941F0523699E"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5DCA8D784BFF71ED"]
+			id: "6618FC319EF39E6A"
+			rewards: [{
+				count: 3
+				id: "3F0FB1E838C11441"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			subtitle: "Casings are needed for many Machines. To make an Andesite Casing right click a stripped log with andesite alloy in your hand"
+			tasks: [{
+				id: "4BA0AECD31477F21"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["712373AB17C527CE"]
+			icon: "create:fluid_tank"
+			id: "361B02968583CF74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B69095B4135F9BE"
+				table_id: 4578738527323259490L
+				type: "random"
+			}]
+			subtitle: "After you got your first SU, its a good idea to build a steam engine. it can give much more SU than Water Wheels if you power it with lava or blaze cakes etc"
+			tasks: [
+				{
+					count: 18L
+					id: "04C0058FE19FC675"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "660FA6E1A7CD9F58"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "46395776A0B1CB72"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "711A5F01CEC6CE1C"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1B0123BE9A1B5225"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			title: "Steam Engine"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["036378877D751BA9"]
+			hide_until_deps_complete: true
+			id: "2E40DB70954A3C6C"
+			subtitle: "You need the Mechanical Press to make sheets of items. Iron Sheets are for example needed for blaze burners"
+			tasks: [{
+				id: "28F8A334FA94CE2E"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2E40DB70954A3C6C"]
+			id: "712373AB17C527CE"
+			tasks: [{
+				id: "44C2BAD42891541E"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6618FC319EF39E6A"]
+			id: "346CB6D016B94027"
+			tasks: [{
+				id: "674D6FEB5EFFD5C4"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2E40DB70954A3C6C"]
+			id: "715398E3DC66ADB4"
+			tasks: [{
+				id: "34E719B4B3C25FB0"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E40DB70954A3C6C"]
+			id: "44309E74C6353878"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06F0BC4F73A57BAD"
+				table_id: 6097823576572747632L
+				type: "random"
+			}]
+			tasks: [{
+				id: "790C179C97F9AD60"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7DA5F94A5F499910"
+				"2EF530AD6AC659D1"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "001B608716B47FB2"
+			tasks: [{
+				id: "6456474286C42281"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A28667B0AC3B456"]
+			hide_until_deps_complete: true
+			id: "4D51E965D3777E0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "114A7E3E98D15F8A"
+				table_id: 4578738527323259490L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2142C88A9C365CCA"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "The Brass Age"
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["715398E3DC66ADB4"]
+			id: "4A28667B0AC3B456"
+			tasks: [{
+				id: "06F3BCC9985F5E4B"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D51E965D3777E0A"]
+			id: "299AB794CD4DAB84"
+			tasks: [{
+				id: "2AA379BE1671E9B7"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["299AB794CD4DAB84"]
+			hide_until_deps_complete: true
+			id: "0B8965985F87FB61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23C31DE4A80235A3"
+				table_id: 4578738527323259490L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65257BC0679E9543"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B8965985F87FB61"]
+			id: "185B9F28309179D2"
+			rewards: [{
+				id: "50C1FD4D82AAA5A1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "53963D21705EA122"
+				title: "Trains"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["185B9F28309179D2"]
+			id: "7A5B3C1A72AA0723"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E1A8E8C68788983"
+				table_id: 6097823576572747632L
+				type: "random"
+			}]
+			tasks: [{
+				id: "45324C17C22AD8AD"
+				item: "create:track"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["185B9F28309179D2"]
+			id: "740D98DB76E52E92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22AA61484BE0D4CC"
+				table_id: 4578738527323259490L
+				type: "random"
+			}]
+			tasks: [{
+				id: "338012D0AB89E5BE"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["740D98DB76E52E92"]
+			id: "6F21B4A6E582A77C"
+			tasks: [{
+				id: "136D950B4AD421C2"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["740D98DB76E52E92"]
+			id: "022FAB3DEB511C08"
+			tasks: [{
+				id: "44757E6CA53D23D1"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["740D98DB76E52E92"]
+			id: "5A6E71B5906AED2D"
+			tasks: [{
+				id: "0827CD042FA14267"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["740D98DB76E52E92"]
+			id: "1163A3B840F93AAF"
+			tasks: [{
+				id: "167F34EE52604093"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D51E965D3777E0A"]
+			id: "15F3D25D992E25DA"
+			tasks: [{
+				id: "2CB067A75324844F"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D51E965D3777E0A"]
+			id: "2C3F34F37213CEEA"
+			subtitle: "You have done the basics of the normal Create Mod. Now you can build your own Farms via using the ponder option or just building one of the farms presented in the following quests"
+			tasks: [{
+				id: "48EA0F20EBFF7F04"
+				title: "Take it in your own Hands"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B8965985F87FB61"]
+			id: "272016268A62D383"
+			rewards: [
+				{
+					id: "54B86B11A926A5BA"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F4E94EF5DA26130"
+					table_id: 4578738527323259490L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			subtitle: "So now you have finished the basic create tree. however you HAVE to note that this is just the tip of the iceberg. this quests just allows you to progress into further create categories. theres still much more to explore"
+			tasks: [{
+				id: "3D3F9F2128FB24D3"
+				title: "Finished?"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2EF530AD6AC659D1"]
+			hide_until_deps_complete: true
+			icon: "createaddition:electric_motor"
+			id: "7BCB34E1197CF3BE"
+			rewards: [{
+				count: 4
+				id: "13D6FEDFD4C8446C"
+				item: "createaddition:spool"
+				type: "item"
+			}]
+			subtitle: "Because this Mod only has a few items it gets integrated into the create category"
+			tasks: [{
+				id: "11D40D10E11F7599"
+				title: "Create: Crafts and Additions"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7BCB34E1197CF3BE"]
+			id: "2B8528875399CEF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4465F2061AEF270F"
+				table_id: 4190994235795981474L
+				type: "random"
+			}]
+			subtitle: "The Electric Motor allows to get FE via SU"
+			tasks: [{
+				id: "0DF9E2A7CABDE52C"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7BCB34E1197CF3BE"]
+			id: "7917075F91411FC0"
+			progression_mode: "linear"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D7B681C48997B98"
+				table_id: 4190994235795981474L
+				type: "random"
+			}]
+			subtitle: "The Alternator is the Counterpart to the Electric Motor"
+			tasks: [{
+				id: "1285A3A5F457D4FB"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7BCB34E1197CF3BE"]
+			id: "1741A99B76ABF946"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DEAD8049056EB80"
+				table_id: 4190994235795981474L
+				type: "random"
+			}]
+			subtitle: "With the rolling mill you can \"crush\" items into some usefulll stuff. for example straws with bamboo"
+			tasks: [{
+				id: "59DB59028B51096C"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["01F765BFC1E4DD9B"]
+			id: "532ED23E315DBA7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "389B17724DB1A582"
+				table_id: 4190994235795981474L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55679561B45B66AF"
+				item: "createaddition:biomass_pellet"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7BCB34E1197CF3BE"]
+			hide_until_deps_complete: true
+			id: "01F765BFC1E4DD9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "645214688F9DA105"
+				table_id: 6097823576572747632L
+				type: "random"
+			}]
+			subtitle: "Biomass is an amazing energy heating source for your steam engine. make the pellets and you can start"
+			tasks: [{
+				id: "1AAB0DEB178CAE63"
+				item: "createaddition:biomass"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["01F765BFC1E4DD9B"]
+			id: "43986CDE1A96A1B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23A86AC1E3545BC7"
+				table_id: 4190994235795981474L
+				type: "random"
+			}]
+			tasks: [{
+				id: "788964E5CCC2EC09"
+				item: "createaddition:biomass_pellet_block"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["01F765BFC1E4DD9B"]
+			id: "0AEF2820E64EC7C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C1B409D0BB1084B"
+				table_id: 4578738527323259490L
+				type: "random"
+			}]
+			subtitle: "Biofuel is amazing. with it you can super-heat your steam engine and it only costs basic ressources. by far one of the best heating sources"
+			tasks: [{
+				amount: 1000L
+				fluid: "createaddition:bioethanol"
+				id: "0A7B7DE3D6E443D7"
+				type: "fluid"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2EF530AD6AC659D1"]
+			icon: "immersiveengineering:wirecoil_copper"
+			id: "13F45D714F0FE31E"
+			subtitle: "With this Quest you can activate the Immersive Engineering Quests tab"
+			tasks: [{
+				id: "2E8563CE7BACDE7E"
+				title: "Immersive Engineering"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+	]
+	title: "Create"
+}

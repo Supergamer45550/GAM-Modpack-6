@@ -1,0 +1,118 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "2F8DDE3D503BA8ED"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				Items: [ ]
+				Size: 3
+			}
+		}
+		id: "immersiveengineering:railgun"
+	}
+	id: "7BD726E2D88EA277"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["13F45D714F0FE31E"]
+			hide_until_deps_complete: true
+			id: "13090FD1533DEC11"
+			subtitle: "Immersive Engineering is a amazing mod about engineering. Everyones dream when it comes to this type of mods"
+			tasks: [{
+				id: "1246AD643360BCC3"
+				title: "An Engineers Dream"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13090FD1533DEC11"]
+			hide_until_deps_complete: true
+			id: "1B940820B2737D5F"
+			subtitle: "This Manual is your best friend when you are new to this mod"
+			tasks: [{
+				id: "4ACB00BD91F5EAB0"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["13090FD1533DEC11"]
+			hide_until_deps_complete: true
+			id: "1F8E00FCF7D91CFF"
+			subtitle: "The Following blocks are for utility. for example crafting or storing stuff"
+			tasks: [{
+				id: "5C016F4CAB7371B6"
+				title: "tables"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F8E00FCF7D91CFF"]
+			hide_until_deps_visible: true
+			id: "68DBF944341987A4"
+			tasks: [{
+				id: "6919A879568227DE"
+				item: "immersiveengineering:craftingtable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1F8E00FCF7D91CFF"]
+			hide_until_deps_visible: true
+			id: "444A129415AAF917"
+			tasks: [{
+				id: "351FCDE446670B06"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1F8E00FCF7D91CFF"]
+			hide_until_deps_visible: true
+			id: "206252CFEBC231BE"
+			tasks: [{
+				id: "2C1B5A322A19BC44"
+				item: "immersiveengineering:circuit_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1F8E00FCF7D91CFF"]
+			hide_until_deps_visible: true
+			id: "22EBC75067C87DBD"
+			tasks: [{
+				id: "3BF62AE05F83344D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 23
+						}
+					}
+					id: "immersiveengineering:toolbox"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+	]
+	title: "Immersive Engineering"
+}

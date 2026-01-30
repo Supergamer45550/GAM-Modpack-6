@@ -1,0 +1,31 @@
+{
+	icon: {
+		Count: 1
+		id: "creategoggles:goggle_golden_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3F8AF26E707F8262"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 4, item: "create:brass_ingot" }
+		{ item: "mysticalagriculture:brass_seeds", weight: 0.3f }
+		{ count: 4, item: "create:brass_casing" }
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+		{
+			type: "xp_levels"
+			weight: 0.4f
+			xp_levels: 15
+		}
+		{ count: 4, item: "create:blaze_burner", weight: 0.85f }
+		{ count: 3, item: "minecraft:copper_block", weight: 0.95f }
+		{ count: 16, item: "create:andesite_alloy", weight: 0.9f }
+		{ count: 64, item: "create:shaft", weight: 0.8f }
+	]
+	title: "Create Table Hard"
+}

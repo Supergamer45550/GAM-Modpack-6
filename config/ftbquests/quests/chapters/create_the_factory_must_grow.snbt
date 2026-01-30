@@ -1,0 +1,60 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_the_factory_must_grow"
+	group: "2F8DDE3D503BA8ED"
+	icon: "tfmg:steel_distillation_controller"
+	id: "24B8AE27D5B2D7AD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["272016268A62D383"]
+			description: ["With the following Quests you can decide whether you wanna focus on SU or more Productions"]
+			icon: "tfmg:steel_distillation_controller"
+			id: "3A2B01729991B98B"
+			subtitle: "Witch Create: The Factory must grow you can expand your factory even farther. Steel, Oil Distillation and much more"
+			tasks: [{
+				id: "39DA8A6ADF50B322"
+				title: "Its time to grow your Factory"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60A2F2ED15EECEA3"]
+			id: "15AA31ED0D3DAEF3"
+			tasks: [{
+				id: "63D57EE9D81F76CA"
+				item: "tfmg:fireclay_ball"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A2B01729991B98B"]
+			id: "60A2F2ED15EECEA3"
+			tasks: [{
+				id: "54CA57A0452459A5"
+				title: "Industry Expansion"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A2B01729991B98B"]
+			id: "70854958E9549FB6"
+			tasks: [{
+				id: "44E4A077558666B6"
+				title: "SU Expansion"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "Create: The Factory must grow"
+}

@@ -1,0 +1,356 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vanilla"
+	group: "2F8DDE3D503BA8ED"
+	icon: "minecraft:grass_block"
+	id: "47ABF409A867F7CD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:grass_block"
+			id: "46BE404FF1722E17"
+			rewards: [{
+				id: "707A6E312C367EE0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "To start your Mod Journey you need the basic vanilla stuff"
+			tasks: [{
+				id: "5C831BBC628D8B45"
+				title: "The Start"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CF64D0195A26E6A"]
+			id: "63AC9F7B07E9DB71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F29C7FD0ED6D685"
+				table_id: 7797360464230243194L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C1CC2942F7A532A"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46BE404FF1722E17"]
+			hide_until_deps_complete: true
+			id: "3CF64D0195A26E6A"
+			rewards: [{
+				id: "61B9CD0569595B95"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "14FD6DCFC249DBB2"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63AC9F7B07E9DB71"]
+			hide_until_deps_complete: true
+			id: "40D0F62B4994381B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "018DDDED18F73BCE"
+				table_id: 7797360464230243194L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2EF2812651F2B8A1"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40D0F62B4994381B"]
+			id: "61E0606CB6F6FFD7"
+			rewards: [{
+				id: "2BE91FAD5B781F3D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1AE964F466296D48"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["40D0F62B4994381B"]
+			id: "2D89D0D2C125E1A0"
+			rewards: [{
+				count: 2
+				id: "1E206A50BAE12A32"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48FA70CEDB791E92"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40D0F62B4994381B"]
+			id: "4A6418E6B70F4627"
+			tasks: [{
+				id: "23CB14D468B98FE9"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D89D0D2C125E1A0"]
+			hide_until_deps_complete: true
+			id: "0FF879E774BAED0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A107AF0CA078310"
+				table_id: 7797360464230243194L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4EF7B2C906B20362"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FF879E774BAED0B"]
+			id: "74B420F3D01A2A8B"
+			rewards: [{
+				count: 3
+				id: "173D831D9F4CDC11"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F53D515C144FE98"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FF879E774BAED0B"]
+			id: "14E87DEA5F0E6262"
+			tasks: [{
+				id: "2E0669334EFD5F9C"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FF879E774BAED0B"]
+			id: "46EDD3FC47A135E4"
+			tasks: [{
+				id: "28ED12CC304102AD"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74B420F3D01A2A8B"]
+			hide_until_deps_complete: true
+			id: "4E8FC766DE042033"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FE5EFE0FE831DAD"
+				table_id: 7797360464230243194L
+				type: "random"
+			}]
+			tasks: [{
+				id: "41B8F2F5C7BCD13C"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61E0606CB6F6FFD7"]
+			icon: "create:wrench"
+			id: "07005371E5F13575"
+			subtitle: "With Copper you are now ready to go into the Factory Age "
+			tasks: [{
+				id: "4A106A838E0A7C09"
+				title: "Create"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E8FC766DE042033"]
+			id: "2C06DEB17963CE49"
+			rewards: [{
+				count: 5
+				id: "34F35B830F1326C5"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36CA5143C617008F"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E8FC766DE042033"]
+			id: "503ED6755DB642F2"
+			rewards: [{
+				count: 2
+				id: "7F3535F38B7D0C15"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EE8C7CDA5BB3EBC"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2C06DEB17963CE49"
+				"503ED6755DB642F2"
+			]
+			id: "62F2F64D69EFF691"
+			rewards: [{
+				id: "4C579933821820AB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "15B11A52BBA82BBF"
+				title: "We need to go deeper"
+				type: "dimension"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46BE404FF1722E17"]
+			hide_until_deps_complete: true
+			id: "2B553792582EA7B1"
+			tasks: [{
+				id: "125635F298A1AFDA"
+				title: "Natural Ressources"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B553792582EA7B1"]
+			hide_until_deps_complete: true
+			icon: "minecraft:water_bucket"
+			id: "2B76D9D4500DCD78"
+			tasks: [{
+				id: "4ADAD4EA152DD4DE"
+				title: "ocean"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B76D9D4500DCD78"]
+			id: "6ECF7D26328B623F"
+			tasks: [{
+				id: "409DDDFE0605FE13"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6ECF7D26328B623F"]
+			id: "7DA5F94A5F499910"
+			tasks: [{
+				id: "5BF7F6FABE5C686A"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3CF64D0195A26E6A"]
+			id: "3FEBA4AA9BC559C1"
+			tasks: [{
+				id: "201CBFF53AE6FA2D"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+	]
+	title: "Vanilla"
+}

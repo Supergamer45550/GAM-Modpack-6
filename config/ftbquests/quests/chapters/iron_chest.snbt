@@ -1,0 +1,138 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_chest"
+	group: "2F8DDE3D503BA8ED"
+	icon: "ironchest:iron_chest"
+	id: "7D0130DF35211E24"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "ironchest:iron_chest"
+			id: "0EE214F0DD270983"
+			tasks: [{
+				id: "33DB36EA0DC9524F"
+				title: "Better chests"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EE214F0DD270983"]
+			hide_until_deps_complete: true
+			id: "5645242020867814"
+			tasks: [{
+				id: "0140E7F9B631D74D"
+				title: "trapped chests"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0EE214F0DD270983"]
+			hide_until_deps_complete: true
+			id: "23749C0DC67AFD63"
+			tasks: [{
+				id: "7F40B09FC9B4334F"
+				title: "normal chests"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0EE214F0DD270983"]
+			hide_until_deps_complete: true
+			id: "269E8CEF8A50D851"
+			tasks: [{
+				id: "6D4364099E26C252"
+				title: "upgrades"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5645242020867814"]
+			id: "3AB78637A68C0966"
+			tasks: [{
+				id: "6B7B9CB223AF2AEF"
+				item: "ironchest:trapped_iron_chest"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3AB78637A68C0966"]
+			id: "3F4035D9B47C2237"
+			tasks: [{
+				id: "7016046E2376381A"
+				item: "ironchest:trapped_gold_chest"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F4035D9B47C2237"]
+			id: "45F60EB17818C28B"
+			tasks: [{
+				id: "5A39171B40CC3EEA"
+				item: "ironchest:trapped_diamond_chest"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["45F60EB17818C28B"]
+			id: "33C2E9D96095EC9F"
+			tasks: [{
+				id: "2EBEFDD44D976AB3"
+				item: "ironchest:trapped_obsidian_chest"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5645242020867814"]
+			id: "2440CEA1ADC67A91"
+			tasks: [{
+				id: "7E00804CC5D52EA1"
+				item: "ironchest:trapped_copper_chest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5645242020867814"]
+			id: "7B1888E43ECA74A3"
+			tasks: [{
+				id: "7DA97F6238B9F17C"
+				item: "ironchest:trapped_crystal_chest"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5645242020867814"]
+			hide_until_deps_visible: true
+			id: "7744E534796A8E77"
+			tasks: [{
+				id: "011352FDB79134F6"
+				item: "ironchest:trapped_dirt_chest"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+	]
+	title: "Iron Chest"
+}

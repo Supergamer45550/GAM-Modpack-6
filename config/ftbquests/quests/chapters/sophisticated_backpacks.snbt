@@ -1,0 +1,291 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_backpacks"
+	group: "2F8DDE3D503BA8ED"
+	icon: "sophisticatedbackpacks:netherite_backpack"
+	id: "06BF94885C7A0784"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 8439583
+					clothColor: 8439583
+				}
+			}
+			id: "1021135FD4DFB0FA"
+			subtitle: "Sophisticated Backpacks adds amazing backpacks which can store many items and also has unique upgrades"
+			tasks: [{
+				id: "1815C51F50193DDE"
+				title: "Backpacks"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1021135FD4DFB0FA"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "7C174F4419F34872"
+			subtitle: "The Backpacks have many Tiers each upgrading the storage"
+			tasks: [{
+				id: "084A06D715211D3C"
+				title: "Backpack Tiers"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C174F4419F34872"]
+			hide_until_deps_visible: true
+			id: "3D2F9F39A2B66C9D"
+			tasks: [{
+				id: "5A4B08C47BBDD82F"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C174F4419F34872"]
+			hide_until_deps_visible: true
+			id: "4A5674F010B13734"
+			tasks: [{
+				id: "7D914A550A5B6E4D"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C174F4419F34872"]
+			hide_until_deps_visible: true
+			id: "1BC33D3A6E1C3BF5"
+			tasks: [{
+				id: "6878A6E01EEBE417"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C174F4419F34872"]
+			hide_until_deps_visible: true
+			id: "53CC31ED11AA658F"
+			tasks: [{
+				id: "06D0D655A1B42E67"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C174F4419F34872"]
+			hide_until_deps_visible: true
+			id: "7451ADDF7DA92711"
+			tasks: [{
+				id: "47BE87CF6930D3A9"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1021135FD4DFB0FA"]
+			hide_until_deps_complete: true
+			id: "7291089D56B272AB"
+			tasks: [{
+				id: "078C255E55E53936"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7291089D56B272AB"]
+			hide_until_deps_complete: true
+			id: "77B1409085F5FE74"
+			tasks: [{
+				id: "6CBDEEC10293900C"
+				title: "Upgrades"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			hide_until_deps_visible: true
+			id: "3825E67E6D1CBE29"
+			tasks: [{
+				id: "5C331892DA744679"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			hide_until_deps_visible: true
+			id: "739183844B196BDE"
+			tasks: [{
+				id: "1BB12535CBF95602"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["739183844B196BDE"]
+			id: "21C89AB3EF7969DD"
+			tasks: [{
+				id: "10494DA825D96808"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["21C89AB3EF7969DD"]
+			id: "5E25C4D167B1DB02"
+			tasks: [{
+				id: "20D3AD9A16D1BF8E"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5E25C4D167B1DB02"]
+			id: "5F4DB80DD272913F"
+			tasks: [{
+				id: "04DD6D6FED26AA76"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5F4DB80DD272913F"]
+			id: "6FF1F93D4C810C21"
+			subtitle: "How long did you grind for this ._."
+			tasks: [{
+				id: "76EDBE08CF3ABB2C"
+				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			hide_until_deps_visible: true
+			id: "0670E4E6DB5585EA"
+			tasks: [{
+				id: "3C036F4A0E57DC3F"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0670E4E6DB5585EA"]
+			id: "3043142ED585B158"
+			tasks: [{
+				id: "64854A969758461C"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			hide_until_deps_visible: true
+			id: "28899D86288C9497"
+			tasks: [{
+				id: "28C2DB3E3A039C08"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["28899D86288C9497"]
+			id: "26181410F33B7E63"
+			tasks: [{
+				id: "44BFDBFCEF586138"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			hide_until_deps_visible: true
+			id: "7387D691A5EE9D56"
+			tasks: [{
+				id: "5F3C7AA5510381DA"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7387D691A5EE9D56"]
+			id: "6117830C93C694C5"
+			tasks: [{
+				id: "3A357D94BB85E8F8"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			hide_until_deps_visible: true
+			id: "5C9B80AD16260AC9"
+			tasks: [{
+				id: "38218A308E6E8F23"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5C9B80AD16260AC9"]
+			id: "7AD2C3E73731839A"
+			tasks: [{
+				id: "1BA402A26E0A5F09"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+	]
+	title: "Sophisticated Backpacks"
+}

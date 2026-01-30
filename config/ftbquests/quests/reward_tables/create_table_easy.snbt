@@ -1,0 +1,27 @@
+{
+	icon: "create:wrench"
+	id: "549FD23C389EDF70"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 4, item: "create:andesite_alloy", weight: 1.5f }
+		{ count: 16, item: "create:shaft", weight: 1.5f }
+		{ count: 2, item: "create:andesite_casing", weight: 1.2f }
+		{ count: 16, item: "minecraft:andesite" }
+		{ count: 4, item: "create:cogwheel" }
+		{ count: 2, item: "create:large_cogwheel" }
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+		{
+			type: "xp_levels"
+			weight: 0.5f
+			xp_levels: 10
+		}
+		{ count: 4, item: "create:fluid_tank" }
+		{ count: 8, item: "minecraft:copper_ingot" }
+		{ count: 4, item: "create:track" }
+	]
+	title: "Create Table Easy"
+}
