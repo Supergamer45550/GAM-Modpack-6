@@ -1,0 +1,271 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "coin_trade"
+	group: "76E901FC54577192"
+	icon: "createdeco:iron_coin"
+	id: "19DE0351DE1013BB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0CB2280E2B62A940"
+			tasks: [{
+				id: "6F748A3E09DC3A34"
+				title: "Coin to Ingot"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CB2280E2B62A940"]
+			id: "4E349B6B82183069"
+			rewards: [{
+				id: "4DB8A82E46163EE6"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33B8B7F67106777E"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CB2280E2B62A940"]
+			id: "038C0729DB44CBC6"
+			rewards: [{
+				id: "56A89E226757B144"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ABDFF0DC20C22FF"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CB2280E2B62A940"]
+			id: "709F256CB17C5DC2"
+			rewards: [{
+				id: "68F4AD0D36AB106A"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74B267186D9EBA3C"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CB2280E2B62A940"]
+			id: "0E6B4F379CEDCB6A"
+			rewards: [{
+				id: "12EFBF2BE5BF0A5C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "636333D37C69AA80"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CB2280E2B62A940"]
+			id: "65D83C4A9155C255"
+			rewards: [{
+				id: "7550ACEDF231B317"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20872B97A8B09DB9"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CB2280E2B62A940"]
+			id: "00D74B2D4980C083"
+			rewards: [{
+				id: "6E5E3482B4E2FD27"
+				item: "createdeco:industrial_iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EE7B76848C0E020"
+				item: "createdeco:industrial_iron_coin"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0CB2280E2B62A940"]
+			id: "01FF6143DC6C4534"
+			rewards: [{
+				id: "5C57F08240D75F6D"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "060B3BCF9FBF3DB3"
+				item: "createdeco:zinc_coin"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A25923A8CC82BE6"]
+			id: "2EE530C74DC28269"
+			rewards: [{
+				id: "454AA427043BA2A6"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32D5ECA26F9F91FC"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A25923A8CC82BE6"]
+			id: "7717E37EBE844AB9"
+			rewards: [{
+				id: "67AD6DEC6673C296"
+				item: "createdeco:zinc_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E46C10A50F45733"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A25923A8CC82BE6"]
+			id: "2CE2B88ECE5D0A5C"
+			rewards: [{
+				id: "5B8B0136C388C8B4"
+				item: "createdeco:industrial_iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B83763F22C0E032"
+				item: "createdeco:industrial_iron_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A25923A8CC82BE6"]
+			id: "632A356B0288575F"
+			rewards: [{
+				id: "45C9234EEB7F43B8"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33A5D5FE29BE713D"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A25923A8CC82BE6"]
+			id: "4B337F773243AA75"
+			rewards: [{
+				id: "3F1CB7C3450C1C58"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21F2D93266E5A96E"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A25923A8CC82BE6"]
+			id: "539281F0D20DAB5F"
+			rewards: [{
+				id: "65864216D63BF444"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "180BCE4464602314"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A25923A8CC82BE6"]
+			id: "0DD42D6C8135CA3A"
+			rewards: [{
+				id: "7DCFEADFAEB1FAE0"
+				item: "createdeco:brass_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "233E86AB2A5EDF5E"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "3A25923A8CC82BE6"
+			tasks: [{
+				id: "309BFD5B3C94EA36"
+				title: "Ingot to Coin"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Coin Trade"
+}

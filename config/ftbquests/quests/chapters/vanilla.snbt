@@ -278,6 +278,7 @@
 				"2C06DEB17963CE49"
 				"503ED6755DB642F2"
 			]
+			hide_until_deps_complete: true
 			id: "62F2F64D69EFF691"
 			rewards: [{
 				id: "4C579933821820AB"
@@ -350,6 +351,215 @@
 			}]
 			x: 1.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["62F2F64D69EFF691"]
+			hide_until_deps_complete: true
+			id: "310AB4031E0E636E"
+			subtitle: "With now being in the Nether you are ready for Simple Storage Network as you need Quartz for this"
+			tasks: [{
+				id: "5E61C9C23ABE62B7"
+				title: "Simple Storage Network"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62F2F64D69EFF691"]
+			id: "53EC692F213350C2"
+			tasks: [{
+				id: "76B6E28846DEA0A7"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62F2F64D69EFF691"]
+			id: "657A80DE61A18D4F"
+			tasks: [{
+				id: "22685707222519C8"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"53EC692F213350C2"
+				"657A80DE61A18D4F"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "1D839972AD7ED579"
+			tasks: [{
+				id: "1A0A5B1211C3E681"
+				title: "Vanilla Structures"
+				type: "checkmark"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D839972AD7ED579"]
+			icon: "minecraft:blackstone"
+			id: "6007D403435C6B1E"
+			tasks: [{
+				icon: "minecraft:blackstone"
+				id: "366E554D148322D8"
+				structure: "minecraft:bastion_remnant"
+				title: "Bastion"
+				type: "structure"
+			}]
+			x: 22.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1D839972AD7ED579"]
+			id: "4DF1510450CEEF4B"
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "35C5449D715BC432"
+				structure: "minecraft:fortress"
+				title: "Nether Fortress"
+				type: "structure"
+			}]
+			x: 22.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4DF1510450CEEF4B"]
+			hide_until_deps_complete: true
+			id: "6FA065BB63C00ECE"
+			tasks: [{
+				id: "56D6C0675F0D5ED8"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DF1510450CEEF4B"]
+			hide_until_deps_complete: true
+			id: "6AC6B078271BEDBB"
+			tasks: [{
+				id: "2945EE898C0C3333"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6007D403435C6B1E"
+				"4DF1510450CEEF4B"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "10114ADD4CB9FFE7"
+			tasks: [{
+				id: "6FD7D79EC548AB70"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10114ADD4CB9FFE7"]
+			id: "399C78272F1F69AB"
+			tasks: [{
+				id: "4D0EDB96A8460DEF"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["399C78272F1F69AB"]
+			id: "287F9AD4084357CD"
+			tasks: [{
+				id: "3A7BD73A8749ED1F"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0638B2414088BEF9"
+				"287F9AD4084357CD"
+			]
+			hide_until_deps_complete: true
+			id: "1BF2D60D92D215FA"
+			tasks: [{
+				id: "69ADA1C598E2888F"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 30.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6007D403435C6B1E"]
+			hide_until_deps_complete: true
+			id: "0638B2414088BEF9"
+			tasks: [{
+				id: "790C514FA269BFC2"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6FA065BB63C00ECE"]
+			id: "692F7CAECBA8FC8A"
+			tasks: [{
+				id: "2AFCC16156113196"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["692F7CAECBA8FC8A"]
+			id: "23256F0237BD65DA"
+			tasks: [{
+				id: "097D8646B906F6E6"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			title: "Stronghold"
+			x: 22.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23256F0237BD65DA"]
+			id: "6483E75F0E312675"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "26679FECA531F04E"
+				title: "The End?"
+				type: "dimension"
+			}]
+			x: 22.0d
+			y: 6.5d
 		}
 	]
 	title: "Vanilla"

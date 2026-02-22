@@ -286,6 +286,150 @@
 			x: 0.0d
 			y: -8.5d
 		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			id: "10D52FDD798E6088"
+			tasks: [{
+				id: "591BEF7A5B269CA6"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["10D52FDD798E6088"]
+			id: "43C4D7C1300D336B"
+			tasks: [{
+				id: "47E0D44E61F64137"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			id: "711DA057D5BD3ABF"
+			tasks: [{
+				id: "4A4C0BB16C890A50"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["711DA057D5BD3ABF"]
+			id: "615BDFC16BC72A0F"
+			tasks: [{
+				id: "3B770885DD55C143"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			id: "018557D6A73705D5"
+			tasks: [{
+				id: "0D15659F99CFA241"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["018557D6A73705D5"]
+			id: "3CF7650B43D48EAE"
+			tasks: [{
+				id: "29E8633F7C7CA2EF"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			id: "6B859AFDB9E1E389"
+			tasks: [{
+				id: "1F6EFDA1C2E95CF4"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B859AFDB9E1E389"]
+			id: "70E19B6F313023B4"
+			tasks: [{
+				id: "7E07E54B5211376C"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			id: "035363F0B02AC809"
+			tasks: [{
+				id: "764213D2DEE9B418"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["035363F0B02AC809"]
+			id: "600961B10B608830"
+			tasks: [{
+				id: "28D3E978D5072C5A"
+				item: "sophisticatedbackpacks:advanced_refill_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			id: "462E5F13633EEFF0"
+			tasks: [{
+				id: "7842FC6773381BDC"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			id: "40119EC049E35822"
+			tasks: [{
+				id: "0D0C4C967A72DDEB"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77B1409085F5FE74"]
+			id: "0A6B6AF634B4DAB5"
+			subtitle: "Those are not all Upgrades. the other ones might get added later"
+			tasks: [{
+				id: "2E9A2A603AE43FBA"
+				title: "Important"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
 	]
 	title: "Sophisticated Backpacks"
 }

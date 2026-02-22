@@ -44,19 +44,8 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0EE214F0DD270983"]
-			hide_until_deps_complete: true
-			id: "269E8CEF8A50D851"
-			tasks: [{
-				id: "6D4364099E26C252"
-				title: "upgrades"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 2.5d
-		}
-		{
 			dependencies: ["5645242020867814"]
+			hide_until_deps_complete: true
 			id: "3AB78637A68C0966"
 			tasks: [{
 				id: "6B7B9CB223AF2AEF"
@@ -101,6 +90,7 @@
 		}
 		{
 			dependencies: ["5645242020867814"]
+			hide_until_deps_complete: true
 			id: "2440CEA1ADC67A91"
 			tasks: [{
 				id: "7E00804CC5D52EA1"
@@ -112,6 +102,7 @@
 		}
 		{
 			dependencies: ["5645242020867814"]
+			hide_until_deps_complete: true
 			id: "7B1888E43ECA74A3"
 			tasks: [{
 				id: "7DA97F6238B9F17C"
@@ -123,7 +114,7 @@
 		}
 		{
 			dependencies: ["5645242020867814"]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "7744E534796A8E77"
 			tasks: [{
 				id: "011352FDB79134F6"
@@ -132,6 +123,184 @@
 			}]
 			x: -6.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["23749C0DC67AFD63"]
+			hide_until_deps_complete: true
+			id: "099FC1EF9B18F58C"
+			tasks: [{
+				id: "2FB80B02615D18FE"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["099FC1EF9B18F58C"]
+			id: "744EFBAE8B0A7FAB"
+			tasks: [{
+				id: "6ACFA9FF8043F5D9"
+				item: "ironchest:gold_chest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["744EFBAE8B0A7FAB"]
+			id: "4198DF0CAB920A37"
+			tasks: [{
+				id: "138DCE1B2E21D05B"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4198DF0CAB920A37"]
+			id: "55E472AA75DF231A"
+			tasks: [{
+				id: "290DCCEAF27A6CA3"
+				item: "ironchest:obsidian_chest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["23749C0DC67AFD63"]
+			hide_until_deps_complete: true
+			id: "05AC39867089EB8A"
+			shape: "circle"
+			tasks: [{
+				id: "7C22E549F55D12AD"
+				item: "ironchest:copper_chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["23749C0DC67AFD63"]
+			hide_until_deps_complete: true
+			id: "7CBEAAB04E8F4AA7"
+			tasks: [{
+				id: "71A0BE883D9402AA"
+				item: "ironchest:crystal_chest"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23749C0DC67AFD63"]
+			hide_until_deps_complete: true
+			id: "3B0C29FEB67EF337"
+			tasks: [{
+				id: "3D858B395DDEF8DB"
+				item: "ironchest:dirt_chest"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17BB3DD8FF38766F"]
+			hide_until_deps_complete: true
+			id: "3CBCD95EA006B1B4"
+			tasks: [{
+				id: "3E24EC3B1A44AA9D"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17BB3DD8FF38766F"]
+			hide_until_deps_complete: true
+			id: "6A6E996F0657A123"
+			tasks: [{
+				id: "2605C7D896F9506B"
+				item: "ironchest:wood_to_copper_chest_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17BB3DD8FF38766F"]
+			hide_until_deps_complete: true
+			id: "2F0F05D7E58C44F1"
+			tasks: [{
+				id: "57649F3A699A8D03"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["17BB3DD8FF38766F"]
+			hide_until_deps_complete: true
+			id: "79AAB37656283C72"
+			tasks: [{
+				id: "0647B89F22F3FF15"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17BB3DD8FF38766F"]
+			hide_until_deps_complete: true
+			id: "779E75A4EB027940"
+			tasks: [{
+				id: "014DB20D7E53A924"
+				item: "ironchest:copper_to_iron_chest_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["17BB3DD8FF38766F"]
+			hide_until_deps_complete: true
+			id: "39880374CBBAF273"
+			tasks: [{
+				id: "7ED98810552A0CC7"
+				item: "ironchest:diamond_to_crystal_chest_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17BB3DD8FF38766F"]
+			hide_until_deps_complete: true
+			id: "2740A77D71FF0FBE"
+			tasks: [{
+				id: "182E69FE76620492"
+				item: "ironchest:diamond_to_obsidian_chest_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EE214F0DD270983"]
+			hide_until_deps_complete: true
+			id: "17BB3DD8FF38766F"
+			tasks: [{
+				id: "37C68E33D4BD73F6"
+				title: "Chest Upgrades"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "Iron Chest"

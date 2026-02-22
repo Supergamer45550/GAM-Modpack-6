@@ -1,0 +1,64 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "other"
+	group: "1C8D715454E86345"
+	id: "00761B96E6CF3E6E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4369512B521775AA"
+			subtitle: "to automate the Progression Chapters you can use the FTB Task screens"
+			tasks: [{
+				id: "7DD8C34C7195C7A2"
+				title: "Tip"
+				type: "checkmark"
+			}]
+			title: "FTB Task Screens"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "64D7BDB6A4D39A2B"
+			tasks: [{
+				id: "07B15A6E9A259139"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "06F34C5B63B95B39"
+			tasks: [{
+				id: "2BE1E90074D853C4"
+				item: "ftbquests:screen_3"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "0EEA6F390B8FA724"
+			tasks: [{
+				id: "32C7016E4BD1D7AC"
+				item: "ftbquests:screen_5"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "38B53C66164CB9A2"
+			tasks: [{
+				id: "61402AB42A86385D"
+				item: "ftbquests:screen_7"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+	]
+	title: "Other"
+}

@@ -1,0 +1,211 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_drawers"
+	group: "2F8DDE3D503BA8ED"
+	icon: "storagedrawers:oak_full_drawers_1"
+	id: "174319ED665FF42A"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3943672CA03B2346"
+			subtitle: "Drawers of the Storage Drawers Mod are amazing Storage Blocks that you can upgrade with Upgrade Items"
+			tasks: [{
+				id: "62F1E774F0B0D2D3"
+				title: "Drawers"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "2BCB21B146AEC75B"
+			tasks: [{
+				id: "6C234B95F9BD30BB"
+				title: "1x1 Drawers"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "03413B936C822BE5"
+			tasks: [{
+				id: "3D139B9AAC3F67E4"
+				title: "Normal Drawers"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			icon: "storagedrawers:oak_full_drawers_2"
+			id: "0F54A92E880F0995"
+			tasks: [{
+				id: "49B0B52F84BBAEF0"
+				title: "1x2 Drawers"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			icon: "storagedrawers:oak_full_drawers_4"
+			id: "5D564A8662A1113F"
+			tasks: [{
+				id: "16438CBA8E870F26"
+				title: "2x2 Drawers"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			icon: "storagedrawers:oak_half_drawers_1"
+			id: "579336BE60EF0DAF"
+			tasks: [{
+				id: "791259764FE5FE3E"
+				title: "Half Drawers"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: "storagedrawers:oak_half_drawers_1"
+			id: "6A46E7C8B7329431"
+			tasks: [{
+				id: "42A699A84671D478"
+				title: "1x1 Half Drawers"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			icon: "storagedrawers:oak_half_drawers_4"
+			id: "6C22F808CE834546"
+			tasks: [{
+				id: "50761D441089FCCA"
+				title: "2x2 Half Drawers"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "4D1EF6CBC0C0FCC1"
+			tasks: [{
+				id: "0F6BD7B3D27B8A8D"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			id: "696638D9CBAEA0A0"
+			tasks: [{
+				id: "1A98547F1B2F096D"
+				item: "storagedrawers:spruce_full_drawers_1"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			id: "10611EED139E56C4"
+			tasks: [{
+				id: "32B878551A56945E"
+				item: "storagedrawers:birch_full_drawers_1"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			id: "62B029E6F79103C5"
+			tasks: [{
+				id: "4B0257C82A1EAC68"
+				item: "storagedrawers:jungle_full_drawers_1"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			id: "3F854EE51500A2B5"
+			tasks: [{
+				id: "24D8B6A3673F54E7"
+				item: "storagedrawers:acacia_full_drawers_1"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			id: "2AB2B86775024E74"
+			tasks: [{
+				id: "348F1742913D2318"
+				item: "storagedrawers:dark_oak_full_drawers_1"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "0392DECF147A2A62"
+			tasks: [{
+				id: "52D9B029934EC968"
+				item: "storagedrawers:mangrove_full_drawers_1"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "1F72A62DAED25E1A"
+			tasks: [{
+				id: "67E74407A2E34065"
+				item: "storagedrawers:cherry_full_drawers_1"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "26463EF2AF0F6674"
+			tasks: [{
+				id: "55D0BF355A512920"
+				item: "storagedrawers:bamboo_full_drawers_1"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "2CF0093221D4C895"
+			tasks: [{
+				id: "15599433AF0BCD9A"
+				item: "storagedrawers:crimson_full_drawers_1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "7204C13E00F198DE"
+			tasks: [{
+				id: "024A51B4DCA7AB9E"
+				item: "storagedrawers:warped_full_drawers_1"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	title: "Storage Drawers"
+}

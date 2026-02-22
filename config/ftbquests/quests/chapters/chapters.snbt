@@ -1,0 +1,141 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapters"
+	group: "1C8D715454E86345"
+	id: "5320962AA4924B13"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7DC9A11DB7D1E676"
+			subtitle: "In this Modpack your goal is to finish all Chapters. Both the Mod Chapters as the different grinding chapters. here you will have to grind many items to finish a chapter. you'll get good rewards for every chapter and your goal is to finish these"
+			tasks: [{
+				id: "774598BF6009C7AB"
+				title: "Chapters"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DC9A11DB7D1E676"]
+			hide_until_deps_complete: true
+			id: "799BDA59ACA0BE24"
+			size: 2.0d
+			subtitle: "In this Chapter you'll have to farm stone, iron and copper "
+			tasks: [
+				{
+					consume_items: true
+					count: 96L
+					id: "0FD8B9C5C52491C0"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1280L
+					id: "415CC0E639B5FC0E"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "042213E8032118C4"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Chapter 1"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["799BDA59ACA0BE24"]
+			hide_until_deps_complete: true
+			id: "30E314C0DE4293C4"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: true
+					count: 320L
+					id: "3DC4FAB0F1763EA4"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3200L
+					id: "066179AC0A550D0C"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "67A265E62A85EEE1"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "667C4452B4A2ACB2"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "6200660A956F7AFD"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+			]
+			title: "Chapter 2"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30E314C0DE4293C4"]
+			hide_until_deps_complete: true
+			id: "763A52B00B9EA99B"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "02606FCA92DECBCC"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6400L
+					id: "366777AC9E3D2005"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 960L
+					id: "31AC4F93AC21949B"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1024L
+					id: "56D942839925F273"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+			]
+			title: "Chapter 3"
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+	title: "Chapters"
+}
