@@ -17,6 +17,5 @@ This Modpack has Crafttweaker to make custom scripts and also may have custom Mo
 
 
 ## Important
-- This Modpack will soon get a big update
-- I didn't design this modpack and im not happy with it
+- This Modpack is on Curseforge, here you can mostly find the bare files 
 - Here you can find releases: https://www.curseforge.com/minecraft/modpacks/gam-craft-6
