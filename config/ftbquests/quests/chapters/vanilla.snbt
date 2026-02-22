@@ -407,6 +407,12 @@
 			dependencies: ["1D839972AD7ED579"]
 			icon: "minecraft:blackstone"
 			id: "6007D403435C6B1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10FD9C10CDE561FA"
+				table_id: 3740595040383640990L
+				type: "random"
+			}]
 			tasks: [{
 				icon: "minecraft:blackstone"
 				id: "366E554D148322D8"
@@ -420,6 +426,12 @@
 		{
 			dependencies: ["1D839972AD7ED579"]
 			id: "4DF1510450CEEF4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C2B9309FCF9EDFA"
+				table_id: 3740595040383640990L
+				type: "random"
+			}]
 			tasks: [{
 				icon: "minecraft:nether_bricks"
 				id: "35C5449D715BC432"
@@ -446,6 +458,12 @@
 			dependencies: ["4DF1510450CEEF4B"]
 			hide_until_deps_complete: true
 			id: "6AC6B078271BEDBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "376BC2DF56643ABA"
+				table_id: 3740595040383640990L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2945EE898C0C3333"
 				item: "minecraft:wither_skeleton_skull"
@@ -462,6 +480,11 @@
 			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
 			id: "10114ADD4CB9FFE7"
+			rewards: [{
+				id: "2AABFEEE997F5A95"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6FD7D79EC548AB70"
 				item: "minecraft:ancient_debris"
@@ -473,6 +496,12 @@
 		{
 			dependencies: ["10114ADD4CB9FFE7"]
 			id: "399C78272F1F69AB"
+			rewards: [{
+				count: 8
+				id: "131C6DE277C3F879"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D0EDB96A8460DEF"
 				item: "minecraft:netherite_scrap"
@@ -484,6 +513,12 @@
 		{
 			dependencies: ["399C78272F1F69AB"]
 			id: "287F9AD4084357CD"
+			rewards: [{
+				count: 4
+				id: "08B8625C173FEB5F"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A7BD73A8749ED1F"
 				item: "minecraft:netherite_ingot"
@@ -499,6 +534,12 @@
 			]
 			hide_until_deps_complete: true
 			id: "1BF2D60D92D215FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B9C511F2D01758A"
+				table_id: 3740595040383640990L
+				type: "random"
+			}]
 			tasks: [{
 				id: "69ADA1C598E2888F"
 				item: {
@@ -517,6 +558,12 @@
 			dependencies: ["6007D403435C6B1E"]
 			hide_until_deps_complete: true
 			id: "0638B2414088BEF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6209FEA590FEA0BF"
+				table_id: 3740595040383640990L
+				type: "random"
+			}]
 			tasks: [{
 				id: "790C514FA269BFC2"
 				item: "minecraft:netherite_upgrade_smithing_template"

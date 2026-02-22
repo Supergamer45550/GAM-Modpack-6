@@ -7,18 +7,127 @@
 	id: "6086580666F1B6CE"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["310AB4031E0E636E"]
-		hide_until_deps_complete: true
-		id: "3C542B2CD502F122"
-		subtitle: "with simple storage network you can link chests into an amazing storage interface with crafting etc"
-		tasks: [{
-			id: "24EE8E406E53EC43"
-			title: "Advanced Storage"
-			type: "checkmark"
-		}]
-		x: -2.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["310AB4031E0E636E"]
+			hide_until_deps_complete: true
+			id: "3C542B2CD502F122"
+			subtitle: "with simple storage network you can link chests into an amazing storage interface with crafting etc"
+			tasks: [{
+				id: "24EE8E406E53EC43"
+				title: "Advanced Storage"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C542B2CD502F122"]
+			hide_until_deps_complete: true
+			id: "09953265F2363CD6"
+			tasks: [{
+				id: "58861ECE8BE478AA"
+				item: "storagenetwork:master"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C542B2CD502F122"]
+			hide_until_deps_complete: true
+			id: "17AE66A68AB745DB"
+			tasks: [{
+				id: "3B130E7E68D98D7B"
+				item: "storagenetwork:inventory"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17AE66A68AB745DB"]
+			id: "05607D958FC78D92"
+			tasks: [{
+				id: "1AACA6D81E54C3DD"
+				item: "storagenetwork:request"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3C542B2CD502F122"]
+			hide_until_deps_complete: true
+			id: "2B35304C6308818C"
+			tasks: [{
+				id: "202F053E58FE74A7"
+				item: "storagenetwork:kabel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B35304C6308818C"]
+			hide_until_deps_complete: true
+			id: "73FE9E61206FC466"
+			tasks: [{
+				id: "04DBDC70C4AA2225"
+				item: "storagenetwork:storage_kabel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F7163E39F629823"]
+			hide_until_deps_complete: true
+			id: "504E02AFB51B947C"
+			tasks: [{
+				id: "74F7A3F85975CCFB"
+				item: "storagenetwork:import_filter_kabel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6F7163E39F629823"]
+			hide_until_deps_complete: true
+			id: "4D315EBFAF029926"
+			tasks: [{
+				id: "5A537EDD59CF180B"
+				item: "storagenetwork:filter_kabel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6F7163E39F629823"]
+			hide_until_deps_complete: true
+			id: "719AF723288A0AE7"
+			tasks: [{
+				id: "59AF824697D36920"
+				item: "storagenetwork:export_kabel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3C542B2CD502F122"]
+			hide_until_deps_complete: true
+			id: "53310C55D4B308FE"
+			tasks: [{
+				id: "028EE2E771B20561"
+				item: "storagenetwork:request_expanded"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+	]
 	title: "Simple Storage Network"
 }

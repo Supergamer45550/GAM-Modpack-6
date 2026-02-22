@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "chapters"
 	group: "1C8D715454E86345"
+	icon: "minecraft:gold_block"
 	id: "5320962AA4924B13"
 	order_index: 0
 	quest_links: [ ]
@@ -133,7 +134,7 @@
 				}
 			]
 			title: "Chapter 3"
-			x: 14.0d
+			x: 13.0d
 			y: 0.0d
 		}
 	]

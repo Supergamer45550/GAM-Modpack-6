@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "other"
 	group: "1C8D715454E86345"
+	icon: "minecraft:iron_block"
 	id: "00761B96E6CF3E6E"
 	order_index: 1
 	quest_links: [ ]
@@ -20,6 +21,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4369512B521775AA"]
 			id: "64D7BDB6A4D39A2B"
 			tasks: [{
 				id: "07B15A6E9A259139"
@@ -30,6 +32,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["4369512B521775AA"]
 			id: "06F34C5B63B95B39"
 			tasks: [{
 				id: "2BE1E90074D853C4"
@@ -40,6 +43,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["4369512B521775AA"]
 			id: "0EEA6F390B8FA724"
 			tasks: [{
 				id: "32C7016E4BD1D7AC"
@@ -50,6 +54,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["4369512B521775AA"]
 			id: "38B53C66164CB9A2"
 			tasks: [{
 				id: "61402AB42A86385D"
@@ -58,6 +63,17 @@
 			}]
 			x: -3.5d
 			y: -1.5d
+		}
+		{
+			id: "6F7163E39F629823"
+			subtitle: "These unlock quests that are not currently finished"
+			tasks: [{
+				id: "218C8397732D7BD0"
+				title: "Beta Quests"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.0d
 		}
 	]
 	title: "Other"

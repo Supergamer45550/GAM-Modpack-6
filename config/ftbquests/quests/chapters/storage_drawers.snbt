@@ -20,6 +20,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["03413B936C822BE5"]
 			icon: "storagedrawers:oak_full_drawers_1"
 			id: "2BCB21B146AEC75B"
 			tasks: [{
@@ -31,6 +32,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["3943672CA03B2346"]
 			icon: "storagedrawers:oak_full_drawers_1"
 			id: "03413B936C822BE5"
 			tasks: [{
@@ -42,6 +44,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["03413B936C822BE5"]
 			icon: "storagedrawers:oak_full_drawers_2"
 			id: "0F54A92E880F0995"
 			tasks: [{
@@ -53,6 +56,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["03413B936C822BE5"]
 			icon: "storagedrawers:oak_full_drawers_4"
 			id: "5D564A8662A1113F"
 			tasks: [{
@@ -64,6 +68,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["3943672CA03B2346"]
 			icon: "storagedrawers:oak_half_drawers_1"
 			id: "579336BE60EF0DAF"
 			tasks: [{
@@ -75,6 +80,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["579336BE60EF0DAF"]
 			icon: "storagedrawers:oak_half_drawers_1"
 			id: "6A46E7C8B7329431"
 			tasks: [{
@@ -86,6 +92,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["579336BE60EF0DAF"]
 			icon: "storagedrawers:oak_half_drawers_4"
 			id: "6C22F808CE834546"
 			tasks: [{
@@ -97,6 +104,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2BCB21B146AEC75B"]
 			id: "4D1EF6CBC0C0FCC1"
 			tasks: [{
 				id: "0F6BD7B3D27B8A8D"
@@ -107,6 +115,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["2BCB21B146AEC75B"]
 			id: "696638D9CBAEA0A0"
 			tasks: [{
 				id: "1A98547F1B2F096D"
@@ -117,6 +126,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["2BCB21B146AEC75B"]
 			id: "10611EED139E56C4"
 			tasks: [{
 				id: "32B878551A56945E"
@@ -127,6 +137,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["2BCB21B146AEC75B"]
 			id: "62B029E6F79103C5"
 			tasks: [{
 				id: "4B0257C82A1EAC68"
@@ -137,6 +148,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["2BCB21B146AEC75B"]
 			id: "3F854EE51500A2B5"
 			tasks: [{
 				id: "24D8B6A3673F54E7"
@@ -147,6 +159,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["2BCB21B146AEC75B"]
 			id: "2AB2B86775024E74"
 			tasks: [{
 				id: "348F1742913D2318"
@@ -157,6 +170,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2BCB21B146AEC75B"]
 			id: "0392DECF147A2A62"
 			tasks: [{
 				id: "52D9B029934EC968"
@@ -167,6 +181,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2BCB21B146AEC75B"]
 			id: "1F72A62DAED25E1A"
 			tasks: [{
 				id: "67E74407A2E34065"
@@ -177,6 +192,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2BCB21B146AEC75B"]
 			id: "26463EF2AF0F6674"
 			tasks: [{
 				id: "55D0BF355A512920"
@@ -187,6 +203,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2BCB21B146AEC75B"]
 			id: "2CF0093221D4C895"
 			tasks: [{
 				id: "15599433AF0BCD9A"
@@ -197,6 +214,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2BCB21B146AEC75B"]
 			id: "7204C13E00F198DE"
 			tasks: [{
 				id: "024A51B4DCA7AB9E"
@@ -204,6 +222,17 @@
 				type: "item"
 			}]
 			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3943672CA03B2346"]
+			id: "49FC931F235C2647"
+			tasks: [{
+				id: "4D51058DE9349FDB"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			x: 3.0d
 			y: 0.0d
 		}
 	]

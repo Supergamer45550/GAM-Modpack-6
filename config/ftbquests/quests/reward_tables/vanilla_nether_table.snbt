@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:netherrack"
+	id: "33E9435EE6A7A59E"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			type: "xp_levels"
+			weight: 0.9f
+			xp_levels: 5
+		}
+		{
+			type: "xp_levels"
+			weight: 0.7f
+			xp_levels: 10
+		}
+		{ count: 32, item: "minecraft:netherrack" }
+		{ count: 16, item: "minecraft:warped_stem" }
+		{ count: 16, item: "minecraft:crimson_stem" }
+		{ count: 8, item: "minecraft:warped_nylium" }
+		{ count: 8, item: "minecraft:crimson_nylium" }
+		{ item: "minecraft:netherite_upgrade_smithing_template", weight: 0.6f }
+		{ item: "minecraft:netherite_block", weight: 0.3f }
+		{ item: "minecraft:netherite_ingot", weight: 0.7f }
+		{ count: 3, item: "minecraft:wither_skeleton_skull", weight: 0.6f }
+	]
+	title: "Vanilla Nether Table"
+}
