@@ -12,8 +12,149 @@ This is my new Minecraft Modpack with custom scripts and maybe custom mods
 This Modpack has Crafttweaker to make custom scripts and also may have custom Mods at some point 
 
 ## ✨ Mods
+- Security Craft
+- Alexsdelight
+- Alexs Mobs
+- Amendments
+- Appleskin
+- Architectury
+- Artifacts
+- Athena
+- Balm
+- Better Advancements
+- Better FPS
+- Biomes O' Plenty
+- Bookshelf
+- Botany Pots
+- Botany Trees
+- Chat Heads
+- Chipped
+- Citadel
+- Cloth
+- Clumps
+- CodeChickenLib
+- cofh
+- comforts
+- configured
+- construction wand
+- Controlling
+- Copycats
+- Cosmetic Armor
+- Craft Tweaker
+- Crash Assistant
+- Create
+- Create: Central Kitchen
+- Create: Enchantment Industry
+- Create Deco
+- Create Stuff Additions
+- Create Tweaker
+- Cucumber
+- Cupboard
+- Curios
+- Easy Villagers
+- Elevators
+- Embeddium
+- Enchantment Descriptions
+- Ender Storage
+- Entity Culling
+- Eureka
+- Falling Leaves
+- Farmers Delight
+- Fast Leaf Decay
+- Ferrite
+- flib
+- Framed Blocks
+- Framework
+- FTB Backups 2
+- FTB Chunks
+- FTB Essentials
+- FTB Filter System
+- FTB Library
+- FTB Quests
+- FTB Ranks
+- FTB Teams
+- FTB Ultimine
+- Fusion
+- fix gpu memory leak
+- handcrafted
+- Iceberg
+- Immersive Engineering
+- Iron Chest
+- Iron Furnaces
+- Item Filters
+- Jade
+- Jade Addons
+- JAM lib
+- Just Enough Items
+- Just Enough Breeding
+- Just Enough Professions
+- Just Enough Ressources
+- Just Zoom
+- Konkrete
+- Kotlin for forge
+- Legendary Tooltips
+- Lootr
+- Mantle
+- Macaws Bridges
+- Macaws Doors
+- Macaws Furniture
+- Macaws Fences
+- Macaws Windows
+- Macaws Roofs
+- Macaws Trapdoors
+- Modern Fix
+- Moonlight
+- Mouse Tweaks
+- Mystical Aggriculture
+- Mystical Aggraditions
+- Nethers Delight
+- No Chat Reports
+- Oceans Delight
+- Packet Fixer
+- Pipez
+- Placebo
+- Polylib
+- Polymorph
+- Prism
+- Quark
+- Rechiseled: Create
+- Rechiseled
+- Refurbished Furniture
+- Ressourcefulllib
+- Right Click Harvest
+- Searchables
+- Simple Discord RPC
+- Simple Planes
+- Simple Shops
+- Simple Storage Network
+- Skin Layers 3d
+- Create: Slice and Dice
+- Sodium Dynamic Lights
+- Sodium Options API
+- Some More Blocks
+- Sophisticated Backpacks
+- Sophisticated Core
+- Storage Drawers
+- supermartijn642configlib
+- supermartijn642corelib
+- Supplementaries
+- Tinkers Construct
+- Terra Blender
+- Create: The Factory Must Grow
+- Thermal Expansion
+- Thermal Foundation
+- Thermal Extra
+- Tips
+- Toast Control
+- Trash Cans
+- Trash Slot
+- Valkyrien Skies
+- Voice Chat
+- Waystones 
+- Zeta
 
 ## ✨ Ressourcepacks
+- Quark Programmer Art
 
 
 ## Important
