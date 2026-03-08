@@ -12,6 +12,9 @@ import mods.createtweaker.PressingRecipe;
 //Iron Coin
 <recipetype:create:pressing>.remove(<item:createdeco:iron_coin>);
 
+//Brass Coin
+<recipetype:create:pressing>.remove(<item:createdeco:brass_coin>);
+
 //Gold Coin
 <recipetype:create:pressing>.remove(<item:createdeco:gold_coin>);
 
